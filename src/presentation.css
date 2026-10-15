@@ -1,0 +1,7 @@
+/* Keep the page's viewport-relative layout authoritative if the runtime pins an
+   inline CSS size after its backing store happens to equal the element size.
+   The runtime still owns the backing store, DPR, scale, and letterbox fit. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+}
